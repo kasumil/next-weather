@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS Weather
+    
+    프로젝트 계획 이유
 
-## Getting Started
+        1. PBL을 통한 실력향상
+        2. Nextjs를 이용한 코딩 문법 습득
+    
+# 폴더구조
+    src/app: 애플리케이션에 필요한 모든 경로, 구성 요소, 논리가 포함되어 있습니다. 주로 여기에서 작업을 진행하게 됩니다.
+    src/app/lib: 재사용 가능한 유틸리티 함수, 데이터 가져오기 함수 등 애플리케이션에서 사용되는 함수가 포함되어 있습니다.
+    src/app/ui: 카드, 테이블, 양식 등 애플리케이션의 모든 UI 구성 요소를 포함합니다.
+    /public: 이미지 등 애플리케이션의 모든 정적 자산을 포함합니다.
 
-First, run the development server:
+    구성 파일next.config.js : 애플리케이션 루트 와 같은 구성 파일도 볼 수 있습니다.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# 개발환경
+    npm run dev 로 개발 서버를 시작합니다.
+    http://localhost:3000을 통해 당신의 어플리케이션을 볼 수 있습니다.
+    app/layout.tsx (혹은 pages/index.tsx) 파일을 수정하고 저장하세요. 이후 업데이트 된 결과를 브라우저에서 확인할할 수 있습니다.
